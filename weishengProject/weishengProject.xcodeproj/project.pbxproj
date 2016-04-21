@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		950906AF1CC90BBA0007B1C3 /* weishengDataBaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 950906AE1CC90BBA0007B1C3 /* weishengDataBaseQueue.m */; };
+		959080571CC3EC570037FFE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 959080561CC3EC570037FFE9 /* main.m */; };
+		9590805A1CC3EC570037FFE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 959080591CC3EC570037FFE9 /* AppDelegate.m */; };
+		9590805D1CC3EC570037FFE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9590805C1CC3EC570037FFE9 /* ViewController.m */; };
+		959080601CC3EC570037FFE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9590805E1CC3EC570037FFE9 /* Main.storyboard */; };
+		959080621CC3EC570037FFE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959080611CC3EC570037FFE9 /* Assets.xcassets */; };
+		959080651CC3EC570037FFE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 959080631CC3EC570037FFE9 /* LaunchScreen.storyboard */; };
+		9590806E1CC3EC660037FFE9 /* weishengModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9590806D1CC3EC660037FFE9 /* weishengModel.m */; };
+		9590807B1CC3ED520037FFE9 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 959080711CC3ED520037FFE9 /* FMDatabase.m */; };
+		9590807C1CC3ED520037FFE9 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 959080731CC3ED520037FFE9 /* FMDatabaseAdditions.m */; };
+		9590807D1CC3ED520037FFE9 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 959080751CC3ED520037FFE9 /* FMDatabasePool.m */; };
+		9590807E1CC3ED520037FFE9 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 959080771CC3ED520037FFE9 /* FMDatabaseQueue.m */; };
+		9590807F1CC3ED520037FFE9 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9590807A1CC3ED520037FFE9 /* FMResultSet.m */; };
+		959080811CC3ED690037FFE9 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 959080801CC3ED690037FFE9 /* libsqlite3.0.tbd */; };
+		959080841CC3ED8C0037FFE9 /* weishengDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 959080831CC3ED8C0037FFE9 /* weishengDataBase.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		950906AD1CC90BBA0007B1C3 /* weishengDataBaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weishengDataBaseQueue.h; sourceTree = "<group>"; };
+		950906AE1CC90BBA0007B1C3 /* weishengDataBaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weishengDataBaseQueue.m; sourceTree = "<group>"; };
+		959080521CC3EC570037FFE9 /* weishengProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weishengProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		959080561CC3EC570037FFE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		959080581CC3EC570037FFE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		959080591CC3EC570037FFE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9590805B1CC3EC570037FFE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9590805C1CC3EC570037FFE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9590805F1CC3EC570037FFE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		959080611CC3EC570037FFE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		959080641CC3EC570037FFE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		959080661CC3EC570037FFE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9590806C1CC3EC660037FFE9 /* weishengModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weishengModel.h; sourceTree = "<group>"; };
+		9590806D1CC3EC660037FFE9 /* weishengModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weishengModel.m; sourceTree = "<group>"; };
+		959080701CC3ED520037FFE9 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		959080711CC3ED520037FFE9 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		959080721CC3ED520037FFE9 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		959080731CC3ED520037FFE9 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		959080741CC3ED520037FFE9 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		959080751CC3ED520037FFE9 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		959080761CC3ED520037FFE9 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		959080771CC3ED520037FFE9 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		959080781CC3ED520037FFE9 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		959080791CC3ED520037FFE9 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		9590807A1CC3ED520037FFE9 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		959080801CC3ED690037FFE9 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		959080821CC3ED8C0037FFE9 /* weishengDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weishengDataBase.h; sourceTree = "<group>"; };
+		959080831CC3ED8C0037FFE9 /* weishengDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weishengDataBase.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9590804F1CC3EC570037FFE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959080811CC3ED690037FFE9 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		959080491CC3EC570037FFE9 = {
+			isa = PBXGroup;
+			children = (
+				959080801CC3ED690037FFE9 /* libsqlite3.0.tbd */,
+				959080541CC3EC570037FFE9 /* weishengProject */,
+				959080531CC3EC570037FFE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		959080531CC3EC570037FFE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				959080521CC3EC570037FFE9 /* weishengProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		959080541CC3EC570037FFE9 /* weishengProject */ = {
+			isa = PBXGroup;
+			children = (
+				9590806F1CC3ED520037FFE9 /* fmdb */,
+				959080581CC3EC570037FFE9 /* AppDelegate.h */,
+				959080591CC3EC570037FFE9 /* AppDelegate.m */,
+				9590805B1CC3EC570037FFE9 /* ViewController.h */,
+				9590805C1CC3EC570037FFE9 /* ViewController.m */,
+				9590805E1CC3EC570037FFE9 /* Main.storyboard */,
+				959080611CC3EC570037FFE9 /* Assets.xcassets */,
+				959080631CC3EC570037FFE9 /* LaunchScreen.storyboard */,
+				959080661CC3EC570037FFE9 /* Info.plist */,
+				959080551CC3EC570037FFE9 /* Supporting Files */,
+				9590806C1CC3EC660037FFE9 /* weishengModel.h */,
+				9590806D1CC3EC660037FFE9 /* weishengModel.m */,
+				959080821CC3ED8C0037FFE9 /* weishengDataBase.h */,
+				959080831CC3ED8C0037FFE9 /* weishengDataBase.m */,
+				950906AD1CC90BBA0007B1C3 /* weishengDataBaseQueue.h */,
+				950906AE1CC90BBA0007B1C3 /* weishengDataBaseQueue.m */,
+			);
+			path = weishengProject;
+			sourceTree = "<group>";
+		};
+		959080551CC3EC570037FFE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				959080561CC3EC570037FFE9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9590806F1CC3ED520037FFE9 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				959080701CC3ED520037FFE9 /* FMDatabase.h */,
+				959080711CC3ED520037FFE9 /* FMDatabase.m */,
+				959080721CC3ED520037FFE9 /* FMDatabaseAdditions.h */,
+				959080731CC3ED520037FFE9 /* FMDatabaseAdditions.m */,
+				959080741CC3ED520037FFE9 /* FMDatabasePool.h */,
+				959080751CC3ED520037FFE9 /* FMDatabasePool.m */,
+				959080761CC3ED520037FFE9 /* FMDatabaseQueue.h */,
+				959080771CC3ED520037FFE9 /* FMDatabaseQueue.m */,
+				959080781CC3ED520037FFE9 /* FMDB.h */,
+				959080791CC3ED520037FFE9 /* FMResultSet.h */,
+				9590807A1CC3ED520037FFE9 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		959080511CC3EC570037FFE9 /* weishengProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 959080691CC3EC570037FFE9 /* Build configuration list for PBXNativeTarget "weishengProject" */;
+			buildPhases = (
+				9590804E1CC3EC570037FFE9 /* Sources */,
+				9590804F1CC3EC570037FFE9 /* Frameworks */,
+				959080501CC3EC570037FFE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weishengProject;
+			productName = weishengProject;
+			productReference = 959080521CC3EC570037FFE9 /* weishengProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9590804A1CC3EC570037FFE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = weisheng.wang;
+				TargetAttributes = {
+					959080511CC3EC570037FFE9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 9590804D1CC3EC570037FFE9 /* Build configuration list for PBXProject "weishengProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 959080491CC3EC570037FFE9;
+			productRefGroup = 959080531CC3EC570037FFE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				959080511CC3EC570037FFE9 /* weishengProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		959080501CC3EC570037FFE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959080651CC3EC570037FFE9 /* LaunchScreen.storyboard in Resources */,
+				959080621CC3EC570037FFE9 /* Assets.xcassets in Resources */,
+				959080601CC3EC570037FFE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9590804E1CC3EC570037FFE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9590805D1CC3EC570037FFE9 /* ViewController.m in Sources */,
+				9590807E1CC3ED520037FFE9 /* FMDatabaseQueue.m in Sources */,
+				959080841CC3ED8C0037FFE9 /* weishengDataBase.m in Sources */,
+				9590806E1CC3EC660037FFE9 /* weishengModel.m in Sources */,
+				9590805A1CC3EC570037FFE9 /* AppDelegate.m in Sources */,
+				950906AF1CC90BBA0007B1C3 /* weishengDataBaseQueue.m in Sources */,
+				9590807B1CC3ED520037FFE9 /* FMDatabase.m in Sources */,
+				9590807D1CC3ED520037FFE9 /* FMDatabasePool.m in Sources */,
+				9590807F1CC3ED520037FFE9 /* FMResultSet.m in Sources */,
+				959080571CC3EC570037FFE9 /* main.m in Sources */,
+				9590807C1CC3ED520037FFE9 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9590805E1CC3EC570037FFE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9590805F1CC3EC570037FFE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		959080631CC3EC570037FFE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				959080641CC3EC570037FFE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		959080671CC3EC570037FFE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		959080681CC3EC570037FFE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9590806A1CC3EC570037FFE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = weishengProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weisheng.wang.weishengProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9590806B1CC3EC570037FFE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = weishengProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weisheng.wang.weishengProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9590804D1CC3EC570037FFE9 /* Build configuration list for PBXProject "weishengProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959080671CC3EC570037FFE9 /* Debug */,
+				959080681CC3EC570037FFE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		959080691CC3EC570037FFE9 /* Build configuration list for PBXNativeTarget "weishengProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9590806A1CC3EC570037FFE9 /* Debug */,
+				9590806B1CC3EC570037FFE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9590804A1CC3EC570037FFE9 /* Project object */;
+}
