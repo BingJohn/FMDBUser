@@ -32,6 +32,6 @@
 /**
  *  @brief 删除表
  */
-+ (void)dropTheTableGroupDataBase:(void (^)(BOOL))completion
++ (void)dropTheTableGroupDataBase:(void (^)(BOOL))completion;
 
 @end
