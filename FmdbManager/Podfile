@@ -1,0 +1,14 @@
+platform :ios, '8.0'
+#use_frameworks!
+
+inhibit_all_warnings!
+target :FmdbManager  do
+
+    pod 'Masonry'
+    pod 'MJRefresh', :git => 'https://github.com/CoderLT/MJRefresh.git'
+    pod 'DZNEmptyDataSet'
+    pod 'KVOController'
+    pod 'YYKit'
+    pod 'AFNetworking'
+    pod 'FMDB'
+end
