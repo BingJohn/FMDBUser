@@ -18,6 +18,6 @@
 @property(nonatomic, copy) NSString *content;
 
 @property(nonatomic, assign) NSInteger age;
-@property(nonatomic, assign) CGFloat   height;
+@property(nonatomic, assign) CGFloat height;
 
 @end

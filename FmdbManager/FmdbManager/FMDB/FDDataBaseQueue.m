@@ -57,7 +57,7 @@
             FMDatabaseQueue *dataQueue = [FDDataBaseQueue shareInstance].dataQueue;
             [dataQueue inDatabase:^(FMDatabase * db) {
                 if ([db open]) {
-                    NSData * data = [self archivedDataForOfflineResourceData:userInfo];
+                    NSData * data = [FDDataBaseQueue archivedDataForData:userInfo];
                     NSString * v5TableSql = [NSString stringWithFormat:@"insert or replace into ContactsChangeFriend (data,userId) values (?,?)"];
                     BOOL res = [db executeUpdate:v5TableSql withArgumentsInArray:@[data,userId]];
                     [db close];
@@ -77,7 +77,7 @@
             FMDatabaseQueue *dataQueue = [FDDataBaseQueue shareInstance].dataQueue;
             [dataQueue inDatabase:^(FMDatabase * db) {
                 if ([db open]) {
-                    NSData * data = [FDDataBaseQueue archivedDataForOfflineResourceData:userInfo];
+                    NSData * data = [FDDataBaseQueue archivedDataForData:userInfo];
                     NSString * v5TableSql = [NSString stringWithFormat:@"update ContactsChangeFriend set data = ? where userId = ?"];
                     BOOL res = [db executeUpdate:v5TableSql withArgumentsInArray:@[data,userId]];
                     [db close];
@@ -126,7 +126,7 @@
                 for (NSDictionary * userInfo in listData) {
                     NSString *userId = userInfo[@"userId"];
                     if (userId) {
-                        NSData * data = [FDDataBaseQueue archivedDataForOfflineResourceData:userInfo];
+                        NSData * data = [FDDataBaseQueue archivedDataForData:userInfo];
                         NSString * v5TableSql = [NSString stringWithFormat:@"insert or replace into ContactsChangeFriend (data,userId) values (?,?)"];
                         BOOL res = [db executeUpdate:v5TableSql withArgumentsInArray:@[data,userId]];
                         if (res) {
@@ -187,7 +187,7 @@
         }
     }];
 }
-+ (NSData *)archivedDataForOfflineResourceData:(NSDictionary *)data
++ (NSData *)archivedDataForData:(NSDictionary *)data
 {
     NSData * resData = nil;
     @try {
@@ -204,7 +204,6 @@
 }
 + (id)unarchiveForData:(NSData*)data
 {
-    
     id resObj = nil;
     @try {
         resObj = [NSKeyedUnarchiver unarchiveObjectWithData:data];
@@ -216,7 +215,6 @@
     @finally {
         
     }
-    
     return resObj;
 }
 #pragma mark 属性
