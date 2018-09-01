@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1EE74972D78879624E827217 /* libPods-FmdbManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC9F06816D6A3C7E27985D5 /* libPods-FmdbManager.a */; };
+		8F2BF1062138F4980089CB85 /* FDDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2BF1052138F4980089CB85 /* FDDataBase.m */; };
 		8F37A224213685C200B699FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F37A223213685C200B699FC /* AppDelegate.m */; };
 		8F37A227213685C200B699FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F37A226213685C200B699FC /* ViewController.m */; };
 		8F37A22A213685C200B699FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F37A228213685C200B699FC /* Main.storyboard */; };
@@ -27,6 +28,8 @@
 
 /* Begin PBXFileReference section */
 		5056FD19B6CA51DECBF4557B /* Pods-FmdbManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FmdbManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FmdbManager/Pods-FmdbManager.debug.xcconfig"; sourceTree = "<group>"; };
+		8F2BF1042138F4980089CB85 /* FDDataBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDDataBase.h; sourceTree = "<group>"; };
+		8F2BF1052138F4980089CB85 /* FDDataBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDDataBase.m; sourceTree = "<group>"; };
 		8F37A21F213685C200B699FC /* FmdbManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FmdbManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F37A222213685C200B699FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8F37A223213685C200B699FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -156,6 +159,8 @@
 			children = (
 				8F37A25E2136C6B800B699FC /* FDDataBaseQueue.h */,
 				8F37A25D2136C6B800B699FC /* FDDataBaseQueue.m */,
+				8F2BF1042138F4980089CB85 /* FDDataBase.h */,
+				8F2BF1052138F4980089CB85 /* FDDataBase.m */,
 			);
 			path = FMDB;
 			sourceTree = "<group>";
@@ -288,6 +293,7 @@
 				8F37A2622136C6B800B699FC /* BaseCollectionController.m in Sources */,
 				8F37A227213685C200B699FC /* ViewController.m in Sources */,
 				8F37A2642136C6B800B699FC /* FDDataBaseQueue.m in Sources */,
+				8F2BF1062138F4980089CB85 /* FDDataBase.m in Sources */,
 				8F37A232213685C500B699FC /* main.m in Sources */,
 				8F37A25F2136C6B800B699FC /* BaseModel.m in Sources */,
 				8F37A26E2136D2A900B699FC /* FDAddViewController.m in Sources */,
